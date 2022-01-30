@@ -1,0 +1,154 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: #666;
+    background-color:rgb(236, 235, 235);
+    font-weight: lighter;
+}
+
+
+h1{
+    color: #0974b3;
+    font-weight:normal;
+}
+h4{
+    font-weight:lighter;
+}
+.readmore {
+text-decoration: underline;
+color: rgb(134, 93, 134);
+}
+
+.content1 img {
+    float: left;
+    width: 150px;
+    margin-right: 15px;
+    margin-top: auto;
+}
+
+.content2 img {
+    float: left;
+    width: 150px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.content3 img {
+    float: left;
+    width: 150px;
+    margin-right: 15px;
+    margin-top: auto;
+}
+
+.content1{
+    background-color: white;
+    border-top: 4px solid #0974b3;
+    box-shadow: #666;
+    float: left;
+    width: 83%;
+    /* width: calc(100% - 160px - 15px);  */
+    margin-left: auto;
+    overflow: auto;
+    padding: 20px;
+    /* overflow: hidden; */
+    padding-bottom: 50px;
+    clear: both;
+    
+    
+}
+
+
+.content2{
+    background-color: white;
+    border-top: 4px solid #0974b3;
+    box-shadow: #666;
+    float: left;
+    width: calc(100% - 150px - 15px);
+    padding: 30px;
+    margin: 30px auto;
+    /* overflow: hidden; */
+    width: 40%;
+    display: block;
+    clear: both;
+    
+}
+.content3{
+    background-color: white;
+    border-top: 4px solid #0974b3;
+    box-shadow: #666;
+    float: right;
+    width: calc(100% - 150px - 15px);
+    padding: 30px;
+    margin: 30px auto;
+    /* overflow: hidden; */
+    width: 40%;
+    clear: both;
+    
+}
+
+/* .content3{
+    background-color: white;
+    border-top: 4px solid #0974b3;
+    box-shadow: #666;
+    float: right;
+    width: calc(100% - 150px - 15px);
+    padding: 30px;
+    margin: 30px auto;
+    margin-left: fit;
+    margin-right: 210px;
+    margin-top: -401px;
+    overflow: auto;
+    width: 40%;
+    height: 35%;
+    clear: both;
+    
+} */
+
+p{
+    text-align: justify;
+    margin: 0px;
+}
+
+/* .double{
+ 
+} */
+/* .double .content2{
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    overflow: auto;
+  height: auto;
+  display: block;
+ 
+ 
+}
+.double .content3{
+    width: 50%;
+    float: right;
+    margin-left: 20px;
+    overflow: auto;
+    height: auto;
+  clear: both;
+
+} */
+
+
+
+
+
+/* .content1 p{
+    float: left;
+  width: 45%;
+  height: 200px;
+  padding: 20px;
+  margin: 2%;
+ overflow:visible;
+ border-radius: 100%;
+} */
